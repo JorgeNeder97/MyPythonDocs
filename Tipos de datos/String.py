@@ -197,13 +197,12 @@ mensaje = f"El precio es: {20 * 2}" # Esto devuelve "El precio es: 40"
 
 # capitalize(): Convierte la primera letra a mayuscula
 # casefold()	Convierte el string a minuscula
-# center()	Returns a centered string
-# count()	Returns the number of times a specified value occurs in a string
-# encode()	Returns an encoded version of the string
-# endswith()	Returns true if the string ends with the specified value
-# expandtabs()	Sets the tab size of the string
-# find()	Searches the string for a specified value and returns the position of where it was found
-# format()	Formats specified values in a string
+# center(n)	Recibe un numero (n) como parametro y retorna el string con n espacios atras y adelante 
+# count()	Recibe como parametro un caractér, devuelve el numero de veces que ese caractér se repite en el texto
+# encode()	Recibe como parametro el metodo de encoding (por defecto es UTF-8), sirve para cambiar el encode del texto
+# endswith()	Recibe como parametro un caractér y devuelve true si el texto termina con ese caractér.
+# expandtabs()	Si el texto tiene el caractér especial tab \t este metodo nos permite hacer un espacio por cada tab, la cantidad de espacio se determina por el numero que le pasemos como parametro.
+# format()	Es una forma verbosa de formatear el string (Recomendación: usar los f string ej: f"Hola {variable}").
 # format_map()	Formats specified values in a string
 # index()	Searches the string for a specified value and returns the position of where it was found
 # isalnum()	Returns True if all characters in the string are alphanumeric
